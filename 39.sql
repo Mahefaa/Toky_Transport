@@ -1,0 +1,2 @@
+--voyages du jour avec heure de départ
+select aller.nom_ville as depart, retour.nom_ville as arrivee, heure_dep, date_voyage from voyage inner join ville aller on voyage.id_ville_depart = aller.id_ville inner join ville retour on voyage.id_ville_arrivee = retour.id_ville where date_voyage = current_date;
