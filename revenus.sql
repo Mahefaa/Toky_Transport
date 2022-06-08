@@ -2,7 +2,7 @@
 
 -- revenus journaliers
 
-select sum(montant_paye) from reserver where date_reserveration = current_date;
+select sum(montant_paye) from reserver where date_reservation = current_date;
 
 --revenus mensuels
 
