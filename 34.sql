@@ -1,0 +1,2 @@
+--nb voyage prévu de X à Y
+select count(id_voyage),aller.nom_ville as depart ,retour.nom_ville as arrivee from voyage inner join ville aller on voyage.id_ville_depart = aller.id_ville inner join ville retour on voyage.id_ville_arrivee = retour.id_ville where aller.nom_ville ='Antananarivo' and retour.nom_ville = 'Toamasina' group by aller.nom_ville,retour.nom_ville;
