@@ -1,0 +1,2 @@
+--Les clients ayant choisi l'offre Premium
+select client.nom,reserver.date_reservation,offre.label as Offre from client inner join reserver on reserver.id_client = client.id_client inner join voyage on voyage.id_voyage = reserver.id_voyage inner join offre on voyage.id_offre = offre.id_offre where offre.label = 'Premium'; 
