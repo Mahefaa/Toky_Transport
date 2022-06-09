@@ -1,1 +1,0 @@
-insert into vehicule (matricule,nb_place,status) values ('5674 WWT', 10,'true'),('7513 TBA', 16,'true'),('9819 TBU', 10,'true'),('5512 TBT', 16,'true'),('4622 TBD', 10,'true'),('7986 WWT', 16,'true'),('2024 TBF', 10,'true'),('3556 TBD', 16,'true'),('7659 TBA', 10,'false'),('6615 TBU', 16,'false');
