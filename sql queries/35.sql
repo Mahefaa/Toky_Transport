@@ -1,1 +1,1 @@
-select count(matricule) from vehicule where status != false;
+select count(matricule) from vehicule where status != false; 
