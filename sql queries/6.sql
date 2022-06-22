@@ -1,0 +1,1 @@
+select voyage.*, villes.nom_ville  from voyage join ville on voyage.id_ville_aller = ville.id_ville;

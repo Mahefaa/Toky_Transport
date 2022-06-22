@@ -1,2 +1,0 @@
---tous les voyages et leurs destinations
-select aller.nom_ville as depart, retour.nom_ville as arrivee from voyage inner join ville aller on voyage.id_ville_depart = aller.id_ville inner join ville retour on voyage.id_ville_arrivee = retour.id_ville;
